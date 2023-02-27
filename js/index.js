@@ -14,3 +14,8 @@ $('.brend-slider').owlCarousel({
         }
     }
 })
+
+$(".xidemetler_right button").click(function(){
+    $(".xidemetler_right button").removeClass("active")
+    $(this).addClass("active")
+})

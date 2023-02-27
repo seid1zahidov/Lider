@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Header {
+    padding: 10px;
+    color: #fff;
+    align-items: center;
+}
+
+#Header .all {
+    background-color: rgba(43, 52, 59, 1);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#Header a {
+    text-decoration: none;
+}
+
+#Header .Header_left-text a {
+    color: #fff;
+    padding: 20px;
+}
+
+#Header .header_right-gmail {
+    align-items: center !important;
+}
+
+#Header .header_right-gmail i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#Header .header_right-gmail a {
+    color: #fff;
+}
+
+.header_right-gmail {
+    margin-left: 11rem;
+}
+
+.strainght_line {
+    border-left: thick solid #f00;
+}
+
+.header-right {
+    border-left: 1px solid #fff;
+}
+
+.header_right_icons i {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#Lider_services {
+    padding-top: 2rem;
+    background-color: rgba(239, 244, 248, 1);
+    padding-bottom: 2rem;
+}
+
+#Lider_services .phone_number i {
+    color: rgba(0, 113, 187, 1);
+}
+
+#Lider_services .phone_number a {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.section_right_images-secont {
+    background-color: paleturquoise;
+}
+
+.section_right_images {
+    background: linear-gradient(180deg, #f32735 0%, #a7111c 100%);
+    width: 55%;
+    height: 50px;
+    border-radius: 7px;
+    display: flex;
+    text-align: center;
+}
+
+.section_right_images i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 1rem;
+}
+
+.section_right_images p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 35px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+#options {
+    background: linear-gradient(90deg, #016baf 0%, #034a78 100%);
+    padding-top: 1rem;
+    font-size: 17px;
+}
+
+#options ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+}
+
+#options li {
+    list-style: none;
+}
+
+#options select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+#Footer {
+    margin-top: 123rem;
+    margin-bottom: 2rem;
+}
+
+#Footer .Footer-left-logo p {
+    color: rgba(119, 126, 131, 1);
+    margin-top: 1rem;
+    width: 250px;
+}
+
+#Footer .Footer-left-logo i {
+    font-size: 30px;
+    color: rgba(0, 113, 187, 1);
+    padding: 5px;
+}
+
+#Footer .Footer-left_map h4 {
+    border-left: 5px solid rgba(0, 113, 187, 1);
+    padding-left: 1rem;
+    margin-left: 3rem;
+}
+
+#Footer .Footer-left_map .ul {
+    display: flex;
+}
+
+#Footer .Footer-left_map .ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+#Footer .Footer-left_map .ul li i {
+    list-style: none;
+    margin-right: 2px;
+    color: rgba(0, 113, 187, 1);
+}
+
+#Footer .Footer-left_map .ul li a {
+    text-decoration: none;
+    color: rgba(43, 52, 59, 1);
+}
+
+#Footer .Footer-left_map .ul ul li i a {
+    text-decoration: none;
+}
+
+#Footer .Footer_bottom {
+    color: rgba(151, 151, 151, 1);
+}
+
+#Header_photo .image {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+#Header_photo .color {
+    background-color: #0071bb;
+}
+
+#Header .center {
+    color: red;
+    opacity: 1;
+}
+
+#Texnika_main {
+    position: relative;
+}
+
+#Texnika_main .main {
+    position: absolute;
+}
+
+#Texnika_main .main {
+    width: 83%;
+    object-fit: cover;
+    margin-left: 2rem;
+}
+
+#Texnika_main .Texnika_card img {
+    width: 100%;
+    height: 360px;
+}
+
+#Texnika_main .text {
+    position: absolute;
+    bottom: 4px;
+    margin-left: 8rem;
+    font-size: 24px;
+}
+
+/* #Texnika_main .card-icon{
+    position: absolute;
+    bottom: 0;
+    width: 252px;
+    height: 52px;
+    background: #fff;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    background: rgba(21, 62, 90, 1);
+} */
+#Texnika_main .card-icon {
+    background: #016baf;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.Texnika_card {
+    position: relative;
+    overflow: hidden;
+}
+
+.Texnika_card::after {
+    content: ">";
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    bottom: -26px;
+    left: calc(50% - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: rgba(0, 113, 187, 1);
+}

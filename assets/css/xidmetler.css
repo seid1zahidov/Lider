@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #Header {
     padding: 10px;
     color: #fff;
     align-items: center;
 }
-#Header .all{
+
+#Header .all {
     background-color: rgba(43, 52, 59, 1);
     position: absolute;
     width: 100%;
@@ -16,44 +18,56 @@
     right: 0;
     top: 0;
 }
+
 #Header a {
     text-decoration: none;
 }
+
 #Header .Header_left-text a {
     color: #fff;
     padding: 20px;
 }
+
 #Header .header_right-gmail {
     align-items: center !important;
 }
+
 #Header .header_right-gmail i {
     font-size: 20px;
     margin-right: 10px;
 }
+
 #Header .header_right-gmail a {
     color: #fff;
 }
+
 .header_right-gmail {
     margin-left: 11rem;
 }
+
 .strainght_line {
     border-left: thick solid #f00;
 }
+
 .header-right {
     border-left: 1px solid #fff;
 }
+
 .header_right_icons i {
     font-size: 18px;
     margin-left: 10px;
 }
+
 #Lider_services {
     padding-top: 2rem;
     background-color: rgba(239, 244, 248, 1);
     padding-bottom: 2rem;
 }
+
 #Lider_services .phone_number i {
     color: rgba(0, 113, 187, 1);
 }
+
 #Lider_services .phone_number a {
     color: black;
     font-size: 17px;
@@ -61,9 +75,11 @@
     margin-left: 3px;
     text-decoration: none;
 }
+
 .section_right_images-secont {
     background-color: paleturquoise;
 }
+
 .section_right_images {
     background: linear-gradient(180deg, #f32735 0%, #a7111c 100%);
     width: 55%;
@@ -72,12 +88,14 @@
     display: flex;
     text-align: center;
 }
+
 .section_right_images i {
     color: #fff;
     font-size: 20px;
     margin-top: 13px;
     margin-left: 1rem;
 }
+
 .section_right_images p {
     font-family: Roboto;
     font-size: 30px;
@@ -87,157 +105,174 @@
     color: #fff;
     margin-top: 6px;
 }
+
 #options {
     background: linear-gradient(90deg, #016baf 0%, #034a78 100%);
     padding-top: 1rem;
     font-size: 17px;
 }
+
 #options ul {
     display: flex;
     justify-content: space-around;
     color: #fff;
     text-align: center;
 }
+
 #options li {
     list-style: none;
 }
+
 #options select {
     background: transparent;
     border: none;
     outline: none;
     color: #fff;
 }
-#Footer{
-    margin-top: 123rem;
+
+#Footer {
     margin-bottom: 2rem;
 }
-#Footer .Footer-left-logo p{
+
+#Footer .Footer-left-logo p {
     color: rgba(119, 126, 131, 1);
     margin-top: 1rem;
     width: 250px;
 }
-#Footer .Footer-left-logo i{
+
+#Footer .Footer-left-logo i {
     font-size: 30px;
     color: rgba(0, 113, 187, 1);
     padding: 5px;
 }
-#Footer .Footer-left_map h4{
+
+#Footer .Footer-left_map h4 {
     border-left: 5px solid rgba(0, 113, 187, 1);
     padding-left: 1rem;
     margin-left: 3rem;
 }
-#Footer .Footer-left_map .ul{
+
+#Footer .Footer-left_map .ul {
     display: flex;
 }
-#Footer .Footer-left_map .ul li{
+
+#Footer .Footer-left_map .ul li {
     list-style: none;
     padding: 10px;
 }
-#Footer .Footer-left_map .ul li i{
+
+#Footer .Footer-left_map .ul li i {
     list-style: none;
     margin-right: 2px;
     color: rgba(0, 113, 187, 1);
 }
-#Footer .Footer-left_map .ul li a{
+
+#Footer .Footer-left_map .ul li a {
     text-decoration: none;
     color: rgba(43, 52, 59, 1);
 }
-#Footer .Footer-left_map .ul ul li i a{
+
+#Footer .Footer-left_map .ul ul li i a {
     text-decoration: none;
 }
-#Footer .Footer_bottom{
+
+#Footer .Footer_bottom {
     color: rgba(151, 151, 151, 1);
 }
-#Header_photo .image{
-        position: absolute;
-        width: 100%;
-        left: 0;
-        right: 0;
+
+#Header_photo .image {
+    width: 100%;
+    left: 0;
+    right: 0;
 }
-#Header_photo .color{
+
+#Header_photo .color {
     background-color: #0071bb;
 }
-#Header .center{
+
+#Header .center {
     color: red;
     opacity: 1;
 }
-#Texnika-slider {
-    margin-top: 14rem;
-    position: relative;
-    background-image: url(/assets/img/17580-[Converted]\ 1.png) !important;
-}
-#Texnika-slider .top {
-    text-align: center;
-}
-#Texnika-slider .top h6 {
-    font-size: 36px;
-}
-#Texnika-slider .top span {
-    padding: 10px;
-}
-#Texnika-slider .item {
+
+#Xidmetler {
+    background: rgba(248, 249, 250, 1);
     width: 100%;
-    align-items: center;
-    display: flex;
+    padding-top: 3rem;
 }
-#Texnika-slider .item h4 {
-    position: absolute;
-    top: 20px;
-    left: 40px;
+
+#Xidmetler .main-left p {
+    text-align: start;
+    margin-top: 20px;
 }
-#Texnika-slider .item img {
+
+#Xidmetler .main-left h4 {
+    margin-top: 2rem;
+    text-align: start;
 }
-#Texnika-slider .owl-next {
-    display: none !important;
+
+#Xidmetler .main-left li {
+    text-align: start;
+    margin-top: 15px;
 }
-#Texnika-slider .owl-prev {
-    display: none !important;
-}
-#Texnika-slider .image2 {
-    position: absolute;
-    top: 50px;
-}
-#Texnika-slider .card-slider-text {
-    position: absolute;
-    bottom: 0;
-    left: 66px;
-    width: 120px;
-    height: 52px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    clip-path: circle(50% at 50% 100%);-
-    color: rgba(255, 255, 255, 1);
-    font-size: 25px;
-    color: #016baf;
-}
-#Texnika-slider .card-slider-text:hover {
-    background: #016baf;
+
+#Xidmetler .containers button {
+    width: 240px;
+    height: 55px;
+    border: 1px solid transparent;
+    background: rgba(0, 113, 187, 1);
     color: #fff;
-    transition: 0.5s;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
 }
-#Texnika-slider .bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+#Xidmetler .main-left img {
+    width: 99%;
+    height: 450px;
+    object-fit: cover;
 }
-#Texnika-slider .bottom button {
-    border-radius: 4px;
-    background-color: #fff;
-    border: 1px solid #0071bb;
-    color: #0071bb;
-    font-size: 22px;
+
+#Xidmetler .containers {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 3rem;
+}
+
+#Xidmetler .xidemetler_right button{
+    width: 350px;
+    height: 62px;
+    border: 1px solid gainsboro;
+    padding-right: 5rem;
     font-weight: 600;
-    width: 250px;
-    height: 60px;
-    box-shadow: 0 10px 20px -8px #000;
-    position: relative;
-    overflow: hidden;
-    min-width: 125px;
+    background-color: linear-gradient(0deg, #DEE0E6, #DEE0E6),
 }
-#Texnika-slider .bottom i {
-    font-size: 16px;
+.xidemetler_right button.active{
+    border-left: 4px solid blue !important;
+    background-color: #fff;
 }
+#Xidmetler .xidemetler_right .contack{
+    color: #fff;
+    background: rgba(0, 113, 187, 1);
+    width: 350px;
+}
+#Xidmetler .xidemetler_right .contack p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+#Xidmetler .xidemetler_right .contack i{
+    margin-right: 10px;
+}
+#Xidmetler .xidemetler_right .contack a{
+    text-decoration: none;
+    color: #fff;
+}
+#Xidmetler .xidemetler_right .logo img{
+    width: 10%;
+    margin-left: 1rem;
+}
+#Xidmetler .xidemetler_right .logo{
+    margin-left: 3rem;
+    margin-top: 1rem;
 
-
+}
