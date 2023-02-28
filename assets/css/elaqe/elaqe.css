@@ -179,7 +179,7 @@
 }
 #Zemanet .container .center {
   margin-top: 2rem;
-  padding: 45px;
+  padding: 10px;
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -194,4 +194,57 @@
 }
 #Zemanet .container .center img {
   width: 100%;
-}/*# sourceMappingURL=zemanet.css.map */
+}
+#Zemanet .container .center i {
+  color: rgb(0, 113, 187);
+}
+#Zemanet .container .center li {
+  padding-left: 2rem;
+}
+#Zemanet .container .center li a {
+  color: rgb(43, 52, 59);
+  text-decoration: none;
+}
+#Zemanet .container .centers {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  height: 80px;
+}
+#Zemanet .container .centers li {
+  padding-left: 2rem;
+}
+#Zemanet .container .centers li a {
+  color: rgb(43, 52, 59);
+  text-decoration: none;
+}
+#Zemanet .container .centers i {
+  color: rgb(0, 113, 187);
+}
+#Zemanet .container .centerss {
+  margin-left: -10px;
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  height: 80px;
+}
+#Zemanet .container .centerss li {
+  padding-left: 2rem;
+}
+#Zemanet .container .centerss li a {
+  color: rgb(43, 52, 59);
+  text-decoration: none;
+}
+#Zemanet .container .centerss i {
+  color: rgb(0, 113, 187);
+}
+
+#Map .map {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+#Photo {
+  background-image: url("/assets/img/Rectangle 385.png");
+}/*# sourceMappingURL=elaqe.css.map */
