@@ -1,0 +1,58 @@
+#Usta_sifarisi {
+  background-image: url("/assets/img/Rectangle 385.png");
+  overflow: hidden;
+  height: 100vh;
+}
+#Usta_sifarisi img {
+  width: 100%;
+}
+#Usta_sifarisi .text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+#Usta_sifarisi .text h1 {
+  margin-bottom: 3rem;
+}
+#Usta_sifarisi .text input {
+  width: 60%;
+  height: 60px;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 15px;
+}
+#Usta_sifarisi .text select {
+  width: 60%;
+  height: 66px;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  color: rgb(112, 112, 112);
+}
+#Usta_sifarisi .text button {
+  background: rgb(0, 113, 187);
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  font-size: 20px;
+}
+#Usta_sifarisi .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Usta_sifarisi .logo_png {
+  position: absolute;
+  width: 13%;
+  transform: translate(-18%, -149%);
+}/*# sourceMappingURL=index.css.map */
