@@ -171,6 +171,10 @@
   background-color: #0071bb;
 }
 
+#Photo {
+  background-image: url("/assets/img/Rectangle 385.png");
+}
+
 #Zemanet {
   background: #F8F9FA;
 }
@@ -243,8 +247,4 @@
 #Map .map {
   text-align: center;
   margin-top: 6rem;
-}
-
-#Photo {
-  background-image: url("/assets/img/Rectangle 385.png");
 }/*# sourceMappingURL=elaqe.css.map */
