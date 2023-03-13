@@ -1837,3 +1837,19 @@ $background-color_5: #fff;
         }
     }
 }
+
+@media (max-width: 576px) {
+	#Header{
+		.container{
+			padding: 0px 0px !important;
+			a{
+				padding: 0px 0px;
+				margin-left: 1rem;
+			}
+		}
+	}
+}
+
+
+
+

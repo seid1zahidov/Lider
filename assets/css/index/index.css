@@ -1689,4 +1689,14 @@
   background: rgb(0, 113, 187);
   border-radius: 17px;
   color: #fff;
+}
+
+@media (max-width: 576px) {
+  #Header .container {
+    padding: 0px 0px !important;
+  }
+  #Header .container a {
+    padding: 0px 0px;
+    margin-left: 1rem;
+  }
 }/*# sourceMappingURL=index.css.map */
